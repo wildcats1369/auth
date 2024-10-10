@@ -1,0 +1,29 @@
+{
+    "name": "wildcats1369/auth",
+    "description": "Laravel Package for api authentication",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "wildcats1369\\auth\\": "src/"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "wildcats1369\\auth\\AuthServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "mrreformado"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0",
+        "lcobucci/jwt": "^4.0",
+        "filament/filament": "^3.2"
+    }
+}
